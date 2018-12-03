@@ -18,6 +18,9 @@ eureka:
 
 
 ---
+spring:
+  application:
+    name: Eureka-config
 
 spring:
   profiles: dev
