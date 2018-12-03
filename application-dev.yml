@@ -1,0 +1,33 @@
+﻿server:
+  port: 8177
+spring:
+  application:
+    name: Eureka-Register
+  profiles:
+    active: dev
+#  security:
+#    user:
+#      name: bigkang-
+#      password: 123
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:8176/eureka/
+
+
+---
+spring:
+  application:
+    name: Eureka-config
+
+spring:
+  profiles: dev
+server:
+  port: 80
+
+
+---
+spring:
+  profiles: pora
