@@ -1,14 +1,14 @@
 ﻿server:
-  port: 8177
+  port: 8170
 spring:
   application:
-    name: Eureka-Register
+    name: Eureka-myconfig
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://127.0.0.1:8176/eureka/
+      defaultZone: http://127.0.0.1:8176/eureka/as
 
 
 ---
@@ -17,7 +17,7 @@ spring:
     name: Eureka-config
 
 spring:
-  profiles: dev
+  profiles: om
 server:
   port: 80
 
