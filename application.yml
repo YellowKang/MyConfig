@@ -11,18 +11,3 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:8176/eureka/
 
-
----
-spring:
-  application:
-    name: Eureka-config
-
-spring:
-  profiles: dev
-server:
-  port: 80
-
-
----
-spring:
-  profiles: pora
