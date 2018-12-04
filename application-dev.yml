@@ -5,10 +5,6 @@ spring:
     name: Eureka-Register
   profiles:
     active: dev
-#  security:
-#    user:
-#      name: bigkang-
-#      password: 123
 eureka:
   client:
     register-with-eureka: false
